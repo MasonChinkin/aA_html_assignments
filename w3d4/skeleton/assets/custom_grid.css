@@ -1,0 +1,10 @@
+/* PUT FLUID GRID CODE HERE */
+aside {
+  width: 33%;
+  float: left;
+}
+
+section.main {
+  width: 66%;
+  float: right;
+}
