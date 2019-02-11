@@ -1,0 +1,26 @@
+/* PHASE 4: Footer */
+
+.footer {
+  background: red;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.footer-main>ul {
+  display: flex;
+  justify-content: space-around
+}
+
+.footer-main a,
+.footer-main p {
+  display: block;
+  padding: 10px 20px;
+}

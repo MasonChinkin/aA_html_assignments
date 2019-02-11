@@ -1,0 +1,41 @@
+/* PHASE 1: Header */
+body {
+  background: lightgrey;
+}
+
+.header {
+  background: red;
+  color: white;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom: 2px white solid;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+.nav-main a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.nav-main li {
+  border-left: 1px white solid;
+  border-right: 1px white solid;
+}
+
+.nav-main a:hover {
+  background: darkred;
+}
+
+.nav-left>ul,
+.nav-right>ul {
+  display: flex;
+  justify-content: space-around;
+}
