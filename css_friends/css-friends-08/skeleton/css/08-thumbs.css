@@ -1,0 +1,14 @@
+/* PHASE 8: Thumbs */
+
+.thumb {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 20%;
+}
+
+.thumb-grid:nth-child(3) {
+  margin-right: 0;
+}
